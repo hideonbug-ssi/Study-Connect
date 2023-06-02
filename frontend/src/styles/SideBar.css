@@ -1,0 +1,53 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #333333; /* Change the background color to dark grey */
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  #sidebarbutton {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border: rgba(0, 0, 0, 0);
+    color: white; /* Change the font color to white */
+    text-decoration: none;
+  }
+  
+  #sidebarbutton:hover{
+    background-color:#fd3a4a;
+    text-decoration: none;
+  }
+  
+  #sidebaricon {
+    padding-right: 0.3em;
+  }
+  
+  #logo {
+    height: 3rem;
+    color: white; /* Change the font color to white */
+    border: rgba(0, 0, 0, 0);
+    font-size: small;
+    text-align: center;
+  }
+  
+  #logoicon {
+    color: white; /* Change the font color to white */
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-weight: 600;
+  }
+  
+  .inactive-link {
+    text-decoration: none;
+  }
+  
+  .active-link:active{
+    background-color: #fd3a4a;
+    text-decoration: none;
+  }
+  
