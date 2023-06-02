@@ -18,7 +18,7 @@ function Note({note}) {
   };
 
   const handleDelete = () => {
-    const userToken = Cookies.get("UserToken");
+    const userToken = Cookies.get("user");
     const userId = localStorage.getItem("userId");
     instance
       .delete(`http://localhost:4000/note/notes/?noteId=${noteId}`, {

@@ -14,7 +14,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   const handleSignIn = () => {
-    isAuthenticated ? setIsAuthenticated(false) : setIsAuthenticated(true);
+    isAuthenticated ? setIsAuthenticated(true):setIsAuthenticated(false);
   }
 
   function checkAuthentication() {
